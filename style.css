@@ -1,0 +1,139 @@
+
+@media (max-width: 2000px) {
+  /* For a screen < 960px, this CSS will be read */
+  body {
+    font-family: 'Roboto';
+    background-color: #22262F;
+    color: #F7F7FF;
+  }
+
+  h1, h2, h3 {
+    margin: 10px;
+  }
+
+  .button-primary {
+    display: inline-block;
+    width: 100px;
+    text-decoration: none;
+    color: rgb(245, 245, 255);
+    padding: 10px 60px;
+    background-color: rgb(192, 48, 33);
+    box-shadow: 0 10px 20px rgba(192, 48, 33, .1);
+    border-radius: 7px;
+  }
+
+  .button-primary:hover {
+    background-color: rgba(192, 48, 33, 0.8);
+  }
+
+  .card {
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  .card-vertical {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .card-vertical li {
+    background-color: #2D3142;
+    margin: 0px 20px;
+    box-shadow: 2px 2px 1px rgba(245, 245, 255, 0.8);
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 7px;
+    list-style: none;
+  }
+
+  .card p {
+    margin: 8px;
+  }
+
+  .img-card{
+    margin: 0;
+    width: 100%;
+    height: 80%;
+    border-radius: 7px 7px 0 0;
+  }
+
+  .social-media {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .social-media li {
+    color: #F7F7FF;
+    margin: 10px 20px;
+    list-style: none;
+  }
+
+  .icon-white{
+    color: #F7F7FF;
+    font-size: 20px;
+  }
+
+  .img-circle {
+    border-radius: 500px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+
+  .card-vertical {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .card-vertical li {
+    background-color: #2D3142;
+    box-shadow: 2px 2px 1px rgba(245, 245, 255, 0.8);
+    text-align: center;
+    width: 25vw;
+    height: 200px;
+    border-radius: 7px;
+    list-style: none;
+  }
+
+  .card p {
+    margin: 8px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+
+  .card-vertical {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .card-vertical li {
+    background-color: #2D3142;
+    box-shadow: 2px 2px 1px rgba(245, 245, 255, 0.8);
+    text-align: center;
+    width: 25vw;
+    height: 200px;
+    border-radius: 7px;
+    list-style: none;
+  }
+
+  .card p {
+    margin: 8px;
+  }
+}
